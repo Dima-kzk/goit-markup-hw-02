@@ -63,11 +63,16 @@ body {
     color: var(--cloud);
 }
 
-.logo:hover,
-.logo:focus,
+.header .logo:hover,
+.header .logo:focus,
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--slate);
+}
+
+.footer .logo:hover,
+.footer .logo:focus{
+    color: var(--cornflower);
 }
 
 .site-nav .link:active {
@@ -186,14 +191,14 @@ body {
     border: 1px solid var(--cornflower);
 }
 
-.button:hover,
-.button:focus{
+.portfolio-button:hover,
+.portfolio-button:focus{
     cursor: pointer;
     color: var(--white);
     background-color: var(--iris);
 }
 
-.button:active{
+.portfolio-button:active{
     background-color: var(--activ-btn-color);
 }
 
