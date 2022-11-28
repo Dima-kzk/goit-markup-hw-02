@@ -24,28 +24,33 @@ body {
     background-color: var(--white);
     color: var(--slate);
     font-family: "Roboto", sans-serif;
+
+
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
 
 .list {
     list-style: none;
 }
 
+.item{
+    background-color: var(--white);
+}
+
 .logo,
 .site-nav .link {
     color: var(--navy-blue);
+    text-decoration: none;
 }
 
 .logo-web{
     color: var(--iris);
 }
 
-.header .logo-studio{
+.header .logo{
     color: var(--navy-blue);
 }
 
@@ -54,10 +59,12 @@ body {
     background-color: var(--navy-blue);
 }
 
-.footer .logo-studio{
+.footer .logo{
     color: var(--cloud);
 }
 
+.logo:hover,
+.logo:focus,
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--slate);
@@ -69,6 +76,7 @@ body {
 
 .contacts .link{
     color: inherit;
+    text-decoration: none;
 }
 
 .hero{
@@ -103,11 +111,11 @@ body {
 }
 
 .header .logo {
-    line-height: 114%;
+    line-height: 1.34;
 }
 
 .footer .logo {
-    line-height: 100%;
+    line-height: 1;
 }
 
 .site-nav{
@@ -119,14 +127,15 @@ body {
 .hero-text{
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .hero-button{
-    font-family: "Roboto", sans-serif;
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     letter-spacing: 0.04em;
 }
 
@@ -136,7 +145,8 @@ body {
     color: var(--navy-blue);
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 /* product */
@@ -146,8 +156,8 @@ body {
     color: var(--navy-blue);
     font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
-    
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 /* team */
@@ -160,15 +170,19 @@ body {
     color: var(--navy-blue);
     font-weight: 600;
     font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* portfolio */
 
-.button{
+.portfolio-button{
     color: var(--iris);
     background: var(--cloud);
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     border: 1px solid var(--cornflower);
 }
 
@@ -186,5 +200,7 @@ body {
 .portfolio-title{
     font-weight: 600;
     font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
