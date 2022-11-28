@@ -84,6 +84,11 @@ body {
     text-decoration: none;
 }
 
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--iris);
+}
+
 .hero{
     background: var(--navy-blue);
 }
